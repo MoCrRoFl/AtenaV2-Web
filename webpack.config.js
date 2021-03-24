@@ -35,7 +35,7 @@ module.exports = {
     filename: 'bundle.js',
   },
 
-  target: process.env.NODE_ENV === 'development' ? 'web' : 'browserslist',
+  target: 'web',
 
   devServer: {
     port: 3000,

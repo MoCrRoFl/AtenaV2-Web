@@ -3,6 +3,6 @@ import React, { FC } from 'react';
 
 import './App.css';
 
-const App: FC = () => <h1>Hell World</h1>;
+const App: FC = () => <h1 className="text-2xl bg-red-100">Hell World</h1>;
 
 export default App;
